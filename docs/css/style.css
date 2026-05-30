@@ -47,20 +47,19 @@ footer .inner {
   color: inherit;
 }
 
-.brand-mark {
+.brand-logo {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: var(--accent-soft);
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-  color: var(--accent-deep);
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(201, 107, 60, 0.18);
 }
 
 .brand-title {
   font-size: 1.35rem;
   font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
 .brand-title span {
