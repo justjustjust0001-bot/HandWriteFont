@@ -2,6 +2,7 @@ import SwiftUI
 
 struct OnboardingTutorialView: View {
     let onComplete: () -> Void
+    var allowEarlyDismiss = false
 
     @State private var pageIndex = 0
 
@@ -63,6 +64,16 @@ struct OnboardingTutorialView: View {
                 bottomBar
                     .padding(.horizontal, 24)
                     .padding(.bottom, 28)
+            }
+            .overlay(alignment: .topTrailing) {
+                if allowEarlyDismiss {
+                    Button("閉じる") {
+                        onComplete()
+                    }
+                    .foregroundStyle(AppTheme.secondaryText)
+                    .padding(.top, 12)
+                    .padding(.trailing, 20)
+                }
             }
         }
     }

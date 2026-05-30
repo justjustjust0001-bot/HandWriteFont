@@ -30,9 +30,11 @@
 		616D1197E99750DCA47C433E /* FontExportWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A6C5FE591B7B8FB8897ED /* FontExportWorker.swift */; };
 		6469151C8AA9F3C10296F7CA /* OnboardingTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B755D4BE2C2529E62BBAF5E3 /* OnboardingTutorialView.swift */; };
 		6C143DC020528F2A8A9807E2 /* CharacterSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE319DA04283BCE7E6973F /* CharacterSection.swift */; };
+		75C724260FD996060B1E4D53 /* LegalDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07064CCF7EE14903A8334AE1 /* LegalDocumentView.swift */; };
 		7D93A2737CC9B0D93BB04E77 /* FontBuildMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EEB2C845E18F4A60CAC4E9 /* FontBuildMetadata.swift */; };
 		816F88FF9C1AB477E9B68653 /* CharacterGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F0228577DCAAE26818818 /* CharacterGridCell.swift */; };
 		83C5A82E3BAFD7DEAD8A6BB4 /* LaunchSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B79FCF6C3BF0456F9271 /* LaunchSplashView.swift */; };
+		84B49075A88F8660BBE03800 /* LegalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9A342DFBE92E419910FDB /* LegalInfoView.swift */; };
 		9555A392058EB7E90D6E09B2 /* OnboardingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C968CEA87E602052A09744B /* OnboardingStorage.swift */; };
 		9AEB76DC3031552A2DDF09F1 /* AlphabetGuideOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0799520E99AFBDC2C5F30 /* AlphabetGuideOverlay.swift */; };
 		9C6219956831D1A41BB9BE1B /* CharacterCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA0E0571E84EDD0415A1292 /* CharacterCatalog.swift */; };
@@ -58,6 +60,7 @@
 		E25C4B8244A25D81C6F9A055 /* VectorFontBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F37003ED47AA46FC02C2A6 /* VectorFontBuilder.swift */; };
 		E62EF0195419A130AA45A869 /* TrueTypeFontAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E8E5D939941D624AC625C /* TrueTypeFontAssembler.swift */; };
 		E8E828A4C58A674A182BBE3F /* OpenTypeTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B8DFB02437E1244AECA34 /* OpenTypeTables.swift */; };
+		EF77621C4FD3C8FBC30FFBD0 /* LegalDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F27C114811FBBB53E5AD64 /* LegalDocuments.swift */; };
 		F238CB134C81F3CB78F78DD1 /* CGPathContourExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21813E84C71C87A2DC1EF2EC /* CGPathContourExtractor.swift */; };
 		F2F0B6DDCB4698539728F4C3 /* GlyphRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C5FA696D49C43168A9C2A /* GlyphRecord.swift */; };
 		F77DE2D80C72EC2CED3B8C84 /* GlyphRasterPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3335E7E469ED1F66813B495 /* GlyphRasterPreviewView.swift */; };
@@ -67,12 +70,14 @@
 
 /* Begin PBXFileReference section */
 		004E8E5D939941D624AC625C /* TrueTypeFontAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueTypeFontAssembler.swift; sourceTree = "<group>"; };
+		07064CCF7EE14903A8334AE1 /* LegalDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalDocumentView.swift; sourceTree = "<group>"; };
 		0EA0E0571E84EDD0415A1292 /* CharacterCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCatalog.swift; sourceTree = "<group>"; };
 		103CFDA289E6D3D10E785DC5 /* SbixFontBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SbixFontBuilder.swift; sourceTree = "<group>"; };
 		1ACE319DA04283BCE7E6973F /* CharacterSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSection.swift; sourceTree = "<group>"; };
 		20DFFB6D3FEADEF16350C3C3 /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
 		21000CFED3BE287FDA50FACB /* BinaryWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryWriter.swift; sourceTree = "<group>"; };
 		21813E84C71C87A2DC1EF2EC /* CGPathContourExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPathContourExtractor.swift; sourceTree = "<group>"; };
+		22F27C114811FBBB53E5AD64 /* LegalDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalDocuments.swift; sourceTree = "<group>"; };
 		26FCB4FA45D76136B1B8E9F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BAE14A1025805017956FFBE /* FontExportError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExportError.swift; sourceTree = "<group>"; };
 		34B7C10CB6B52B63B2307DBC /* StrokeSmoother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeSmoother.swift; sourceTree = "<group>"; };
@@ -85,6 +90,7 @@
 		568A6C5FE591B7B8FB8897ED /* FontExportWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExportWorker.swift; sourceTree = "<group>"; };
 		56F1EDEFCF4FF1D92907D835 /* CharacterSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSearchView.swift; sourceTree = "<group>"; };
 		585EE029C583B64C7ABC4379 /* CharacterCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCanvasView.swift; sourceTree = "<group>"; };
+		58F9A342DFBE92E419910FDB /* LegalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalInfoView.swift; sourceTree = "<group>"; };
 		5CAF5947A3A8FF4F0D19B753 /* AppBrandTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBrandTitle.swift; sourceTree = "<group>"; };
 		5E5C8187068F01E0707FEE03 /* GlyfEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyfEncoder.swift; sourceTree = "<group>"; };
 		5FD1C9414492DE71CEBF2030 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
@@ -173,6 +179,7 @@
 				4C2764174A96F83C6A393CC0 /* FontProject.swift */,
 				4F0C5FA696D49C43168A9C2A /* GlyphRecord.swift */,
 				A28520B726C950D8E135D494 /* KanjiPack.swift */,
+				22F27C114811FBBB53E5AD64 /* LegalDocuments.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -237,6 +244,8 @@
 				F3335E7E469ED1F66813B495 /* GlyphRasterPreviewView.swift */,
 				A8F406536F77CF7A999A8430 /* KanjiPackStoreView.swift */,
 				D284B79FCF6C3BF0456F9271 /* LaunchSplashView.swift */,
+				07064CCF7EE14903A8334AE1 /* LegalDocumentView.swift */,
+				58F9A342DFBE92E419910FDB /* LegalInfoView.swift */,
 				B755D4BE2C2529E62BBAF5E3 /* OnboardingTutorialView.swift */,
 				925DAFFADA6EE3F46B69E520 /* ProjectPickerView.swift */,
 				FF0FD92F4BE4977F2D73E0A0 /* ShareSheet.swift */,
@@ -367,6 +376,9 @@
 				3B023458E38823C08D4C3910 /* KanjiPack.swift in Sources */,
 				AD629A3B5B03C52F86D0D64A /* KanjiPackStoreView.swift in Sources */,
 				83C5A82E3BAFD7DEAD8A6BB4 /* LaunchSplashView.swift in Sources */,
+				75C724260FD996060B1E4D53 /* LegalDocumentView.swift in Sources */,
+				EF77621C4FD3C8FBC30FFBD0 /* LegalDocuments.swift in Sources */,
+				84B49075A88F8660BBE03800 /* LegalInfoView.swift in Sources */,
 				9555A392058EB7E90D6E09B2 /* OnboardingStorage.swift in Sources */,
 				6469151C8AA9F3C10296F7CA /* OnboardingTutorialView.swift in Sources */,
 				E8E828A4C58A674A182BBE3F /* OpenTypeTables.swift in Sources */,

@@ -32,6 +32,8 @@ struct DrawingCanvasView: View {
             }
             .contentShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
             .gesture(drawingGesture(in: geometry.size, displayScale: displayScale))
+            .accessibilityLabel("手書きキャンバス")
+            .accessibilityHint("指または Apple Pencil で文字を描きます")
         }
         .aspectRatio(1, contentMode: .fit)
     }

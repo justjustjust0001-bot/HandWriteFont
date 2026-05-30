@@ -6,6 +6,7 @@ struct ContentView: View {
 
     @State private var showSplash = true
     @State private var showOnboarding = false
+    @State private var onboardingAllowDismiss = false
 
     var body: some View {
         ZStack {
@@ -17,9 +18,10 @@ struct ContentView: View {
             .accessibilityHidden(!isMainVisible)
 
             if showOnboarding {
-                OnboardingTutorialView {
+                OnboardingTutorialView(allowEarlyDismiss: onboardingAllowDismiss) {
                     withAnimation(.easeInOut(duration: 0.35)) {
                         showOnboarding = false
+                        onboardingAllowDismiss = false
                     }
                 }
                 .transition(.opacity)
@@ -55,6 +57,7 @@ struct ContentView: View {
             }
         }
         .onReceive(NotificationCenter.default.publisher(for: .showOnboardingTutorial)) { _ in
+            onboardingAllowDismiss = true
             withAnimation(.easeInOut(duration: 0.35)) {
                 showOnboarding = true
             }

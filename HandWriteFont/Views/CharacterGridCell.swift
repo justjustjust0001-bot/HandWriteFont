@@ -5,6 +5,15 @@ struct CharacterGridCell: View {
     let isSaved: Bool
     let isLocked: Bool
 
+    private var accessibilityDescription: String {
+        var parts = [String(character)]
+        if isLocked {
+            parts.append("漢字パックが必要")
+        }
+        parts.append(isSaved ? "保存済み" : "未保存")
+        return parts.joined(separator: "、")
+    }
+
     var body: some View {
         ZStack(alignment: .topTrailing) {
             VStack(spacing: 4) {
@@ -16,6 +25,7 @@ struct CharacterGridCell: View {
                 Circle()
                     .fill(isSaved ? AppTheme.saved : AppTheme.accentSoft.opacity(0.6))
                     .frame(width: 8, height: 8)
+                    .accessibilityHidden(true)
             }
             .padding(8)
             .frame(maxWidth: .infinity, minHeight: 56)
@@ -25,12 +35,15 @@ struct CharacterGridCell: View {
                 RoundedRectangle(cornerRadius: 10, style: .continuous)
                     .stroke(isSaved ? AppTheme.saved.opacity(0.55) : AppTheme.accentSoft, lineWidth: 1)
             }
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(accessibilityDescription)
 
             if isLocked {
                 Image(systemName: "lock.fill")
                     .font(.caption2)
                     .foregroundStyle(AppTheme.secondaryText)
                     .padding(6)
+                    .accessibilityHidden(true)
             }
         }
     }

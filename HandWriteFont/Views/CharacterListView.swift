@@ -67,6 +67,12 @@ struct CharacterListView: View {
                     } label: {
                         Label("使い方ガイド", systemImage: "book.pages")
                     }
+
+                    NavigationLink {
+                        LegalInfoView()
+                    } label: {
+                        Label("法的情報", systemImage: "doc.text")
+                    }
                 } label: {
                     Image(systemName: "ellipsis.circle")
                         .foregroundStyle(AppTheme.accentDeep)

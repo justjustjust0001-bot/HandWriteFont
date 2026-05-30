@@ -52,6 +52,7 @@ final class SubscriptionService: ObservableObject {
     @Published private(set) var isKanjiUnlocked = false
     @Published private(set) var products: [Product] = []
     @Published private(set) var purchaseInProgress = false
+    @Published private(set) var restoreInProgress = false
     @Published private(set) var productsLoadFailed = false
     @Published var lastErrorMessage: String?
     @Published var statusMessage: String?
@@ -134,6 +135,9 @@ final class SubscriptionService: ObservableObject {
     }
 
     func restorePurchases() async {
+        restoreInProgress = true
+        defer { restoreInProgress = false }
+
         do {
             try await AppStore.sync()
             await refreshEntitlements()

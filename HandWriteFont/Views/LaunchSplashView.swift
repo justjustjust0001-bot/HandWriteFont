@@ -36,6 +36,7 @@ struct LaunchSplashView: View {
                     ProgressView()
                         .tint(AppTheme.accent)
                         .scaleEffect(1.05)
+                        .accessibilityLabel("読み込み中")
                 }
             }
             .opacity(contentOpacity)
