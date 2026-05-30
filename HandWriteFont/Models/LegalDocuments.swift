@@ -1,5 +1,27 @@
 import Foundation
 
+enum LegalContactInfo {
+    static let businessName = "德留 海太"
+    static let contactEmail = "seirogan888@gmail.com"
+
+    /// GitHub Pages 公開後の URL（リポジトリ名が HandWriteFont の場合）
+    static let websiteBaseURL = URL(string: "https://tokudomekaita.github.io/HandWriteFont/")!
+
+    static var tokushohoURL: URL {
+        websiteBaseURL.appendingPathComponent("legal/tokushoho.html")
+    }
+
+    static var privacyPolicyURL: URL {
+        websiteBaseURL.appendingPathComponent("legal/privacy.html")
+    }
+
+    static var termsOfUseURL: URL {
+        websiteBaseURL.appendingPathComponent("legal/terms.html")
+    }
+
+    static var supportURL: URL { websiteBaseURL }
+}
+
 enum LegalDocumentKind: String, Identifiable, CaseIterable {
     case termsOfUse
     case privacyPolicy
@@ -26,8 +48,6 @@ enum LegalDocumentKind: String, Identifiable, CaseIterable {
         }
     }
 
-    // MARK: - 文案（公開前に事業者情報・連絡先を更新してください）
-
     private static let termsOfUseText = """
     FontMaker 利用規約
 
@@ -44,7 +64,7 @@ enum LegalDocumentKind: String, Identifiable, CaseIterable {
     (3) ユーザーは、自己の創作であること、第三者の著作権・商標権その他の権利を侵害しないことを保証するものとします。既存フォントの模倣、トレース、無断利用は禁止します。
 
     3. 本アプリ提供者の権利
-    本アプリのプログラム、デザイン、ロゴ、提供する文字セット定義等に関する権利は、本アプリ提供者に帰属します。本規約に基づく利用許諾は、本アプリの使用権のみを付与するものであり、フォントの権利を移転するものではありません。
+    本アプリのプログラム、デザイン、ロゴ、提供する文字セット定義等に関する権利は、本アプリ提供者（\(LegalContactInfo.businessName)）に帰属します。本規約に基づく利用許諾は、本アプリの使用権のみを付与するものであり、フォントの権利を移転するものではありません。
 
     4. データの保存
     手書きデータおよびフォントデータは、原則としてユーザーの端末内に保存されます。本アプリ提供者は、ユーザーの手書きデータをサーバーに収集・保存しません。
@@ -63,10 +83,10 @@ enum LegalDocumentKind: String, Identifiable, CaseIterable {
     (2) ユーザーが作成・販売・配布したフォントに関するトラブルについて、本アプリ提供者は関与せず、ユーザー自身の責任において解決するものとします。
 
     8. 規約の変更
-    本規約は、必要に応じて変更される場合があります。変更後の規約は、アプリ内またはウェブサイト上で告知した時点から効力を生じます。
+    本規約は、必要に応じて変更される場合があります。変更後の規約は、アプリ内またはウェブサイト（\(LegalContactInfo.websiteBaseURL.absoluteString)）上で告知した時点から効力を生じます。
 
     9. お問い合わせ
-    本規約に関するお問い合わせは、アプリ内「法的情報」に記載の連絡先までご連絡ください。
+    本規約に関するお問い合わせは、\(LegalContactInfo.contactEmail) までご連絡ください。
     """
 
     private static let privacyPolicyText = """
@@ -98,7 +118,7 @@ enum LegalDocumentKind: String, Identifiable, CaseIterable {
     ユーザーは、本アプリ内で文字データやプロジェクトを削除できます。アプリを削除すると、端末内に保存された本アプリのデータも削除されます。
 
     6. お問い合わせ
-    プライバシーに関するお問い合わせは、アプリ内「法的情報」に記載の連絡先までご連絡ください。
+    プライバシーに関するお問い合わせは、\(LegalContactInfo.contactEmail) までご連絡ください。
     """
 
     private static let subscriptionTermsText = """
@@ -131,11 +151,4 @@ enum LegalDocumentKind: String, Identifiable, CaseIterable {
     8. サブスクリプション終了後
     サブスクリプション終了後、漢字の新規登録・編集は制限されますが、既に保存した漢字データは端末内に残ります。再購入により再度利用できます。
     """
-}
-
-enum LegalContactInfo {
-    /// 公開前に実際の情報へ更新してください
-    static let businessName = "（事業者名を入力）"
-    static let contactEmail = "（連絡先メールアドレスを入力）"
-    static let tokushohoURL: URL? = nil
 }

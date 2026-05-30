@@ -25,15 +25,9 @@ struct LegalInfoView: View {
 
             Section("事業者情報") {
                 LabeledContent("事業者名", value: LegalContactInfo.businessName)
-                LabeledContent("お問い合わせ", value: LegalContactInfo.contactEmail)
-
-                if let url = LegalContactInfo.tokushohoURL {
-                    Link("特定商取引法に基づく表記", destination: url)
-                } else {
-                    Text("特定商取引法に基づく表記は、公開前に Web ページの URL を設定してください。")
-                        .font(.caption)
-                        .foregroundStyle(AppTheme.secondaryText)
-                }
+                Link(LegalContactInfo.contactEmail, destination: URL(string: "mailto:\(LegalContactInfo.contactEmail)")!)
+                Link("公式サイト", destination: LegalContactInfo.supportURL)
+                Link("特定商取引法に基づく表記", destination: LegalContactInfo.tokushohoURL)
             }
 
             Section {

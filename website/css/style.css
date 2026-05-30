@@ -1,0 +1,187 @@
+:root {
+  --bg: #faf6f0;
+  --card: #ffffff;
+  --text: #3d3429;
+  --muted: #7a6f62;
+  --accent: #c96b3c;
+  --accent-deep: #a8532a;
+  --accent-soft: #f0d5c4;
+  --border: #eadfce;
+  --max: 720px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+}
+
+a {
+  color: var(--accent-deep);
+}
+
+header {
+  background: linear-gradient(180deg, #fff 0%, var(--bg) 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 1.25rem 1.5rem;
+}
+
+header .inner,
+main,
+footer .inner {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: var(--accent-deep);
+}
+
+.brand-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.brand-title span {
+  color: var(--accent);
+}
+
+nav {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  font-size: 0.92rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem 1.5rem 3rem;
+}
+
+.hero {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(201, 107, 60, 0.06);
+}
+
+.hero h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.6rem, 4vw, 2.1rem);
+  line-height: 1.35;
+}
+
+.hero p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.25rem 1.35rem;
+}
+
+.card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.legal-page h1 {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+.legal-page h2 {
+  margin-top: 2rem;
+  font-size: 1.05rem;
+}
+
+.legal-page p,
+.legal-page li {
+  color: var(--text);
+}
+
+.legal-page ul {
+  padding-left: 1.2rem;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+table.legal-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table.legal-table th,
+table.legal-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  text-align: left;
+}
+
+table.legal-table th {
+  width: 34%;
+  background: #fff8f2;
+  font-weight: 600;
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+@media (min-width: 640px) {
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
