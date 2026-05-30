@@ -7,10 +7,10 @@
 1. GitHub に `HandWriteFont` リポジトリを push する
 2. GitHub → **Settings** → **Pages**
 3. **Source** を `Deploy from a branch` に設定
-4. **Branch** を `main`（または `fix/app-store-prep-phase1` を merge 後の main）、**Folder** を `/website` に設定
+4. **Branch** を `main`、**Folder** を `/docs` に設定（GitHub Pages は `/` か `/docs` のみ選択可能）
 5. 数分後、次の URL で公開されます:
 
-   **https://tokudomekaita.github.io/HandWriteFont/**
+   **https://justjustjust0001-bot.github.io/HandWriteFont/**
 
 ## 各ページ
 
@@ -25,14 +25,14 @@
 
 | 項目 | URL |
 |---|---|
-| サポート URL | `https://tokudomekaita.github.io/HandWriteFont/` |
-| プライバシーポリシー URL | `https://tokudomekaita.github.io/HandWriteFont/legal/privacy.html` |
-| マーケティング URL（任意） | `https://tokudomekaita.github.io/HandWriteFont/` |
+| サポート URL | `https://justjustjust0001-bot.github.io/HandWriteFont/` |
+| プライバシーポリシー URL | `https://justjustjust0001-bot.github.io/HandWriteFont/legal/privacy.html` |
+| マーケティング URL（任意） | `https://justjustjust0001-bot.github.io/HandWriteFont/` |
 
 ## ローカル確認
 
 ```bash
-cd website
+cd docs
 python3 -m http.server 8080
 ```
 

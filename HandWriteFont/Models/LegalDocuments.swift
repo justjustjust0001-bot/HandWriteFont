@@ -5,7 +5,7 @@ enum LegalContactInfo {
     static let contactEmail = "seirogan888@gmail.com"
 
     /// GitHub Pages 公開後の URL（リポジトリ名が HandWriteFont の場合）
-    static let websiteBaseURL = URL(string: "https://tokudomekaita.github.io/HandWriteFont/")!
+    static let websiteBaseURL = URL(string: "https://justjustjust0001-bot.github.io/HandWriteFont/")!
 
     static var tokushohoURL: URL {
         websiteBaseURL.appendingPathComponent("legal/tokushoho.html")
