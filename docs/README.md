@@ -20,6 +20,7 @@
 | 特定商取引法に基づく表記 | `/legal/tokushoho.html` |
 | 利用規約 | `/legal/terms.html` |
 | プライバシーポリシー | `/legal/privacy.html` |
+| サブスクリプションについて | `/legal/subscription.html` |
 
 ## App Store Connect での設定例
 

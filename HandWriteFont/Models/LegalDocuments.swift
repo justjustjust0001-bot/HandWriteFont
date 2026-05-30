@@ -19,6 +19,10 @@ enum LegalContactInfo {
         websiteBaseURL.appendingPathComponent("legal/terms.html")
     }
 
+    static var subscriptionTermsURL: URL {
+        websiteBaseURL.appendingPathComponent("legal/subscription.html")
+    }
+
     static var supportURL: URL { websiteBaseURL }
 }
 

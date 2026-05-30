@@ -141,7 +141,8 @@ main {
   color: var(--text);
 }
 
-.legal-page ul {
+.legal-page ul,
+.legal-page ol {
   padding-left: 1.2rem;
 }
 
