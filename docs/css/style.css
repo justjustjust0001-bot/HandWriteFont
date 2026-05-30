@@ -69,13 +69,16 @@ footer .inner {
 
 nav.site-nav {
   margin-top: 0.75rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 0.45rem 0.85rem;
   font-size: 0.88rem;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  padding-bottom: 0.15rem;
+}
+
+@media (min-width: 720px) {
+  nav.site-nav {
+    grid-template-columns: repeat(6, max-content);
+  }
 }
 
 nav.site-nav a {
