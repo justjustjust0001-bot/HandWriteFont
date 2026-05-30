@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06887FE51BEB2FC7C1DD7321 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCB4FA45D76136B1B8E9F9 /* ContentView.swift */; };
+		1603B36BEFFB13767F10854C /* CharacterGuideOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97F7006EF6C8DBB896104D /* CharacterGuideOverlay.swift */; };
+		16C7C194C84E76FFF6A368A3 /* FontExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1E9B5D6CD37B6B5AD60ED0 /* FontExportService.swift */; };
+		1CF89C4D2AE37D9ECAF4DC0C /* CharacterSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F1EDEFCF4FF1D92907D835 /* CharacterSearchView.swift */; };
+		2678FAA3CE6C17B2A3AC4BB0 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD95657473C70CA81BB2B34 /* AppTheme.swift */; };
+		293C6709F904D73ECDDFBA60 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879A76CDE00EFC172C7E9D30 /* CharacterListView.swift */; };
+		2D7CB3EAA1D56484DABE327D /* DrawingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA63B75C07474E2D04E046 /* DrawingSettings.swift */; };
+		33F3872DD5AD60B0B821B844 /* FontMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BA91DAB097FD55731441D /* FontMakerApp.swift */; };
+		3826333A2A314090516882AD /* CharacterSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B354B47DDBBFCBE647D0E /* CharacterSearchService.swift */; };
+		393D90F1A1D8500E85FAC2F2 /* FontExportEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC796E59064EB2DE53359B8 /* FontExportEngine.swift */; };
+		3AF9646A97E1116BC0514927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8E9400787F7179CD4A65F0 /* Assets.xcassets */; };
+		3B023458E38823C08D4C3910 /* KanjiPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28520B726C950D8E135D494 /* KanjiPack.swift */; };
+		3CD139C7A2FB6EA7F61439B4 /* kanji_packs.json in Resources */ = {isa = PBXBuildFile; fileRef = F6E1F44D210D291CA1C61EEC /* kanji_packs.json */; };
+		3DA6FEC3E0276761017706BA /* BinaryWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21000CFED3BE287FDA50FACB /* BinaryWriter.swift */; };
+		403A1AD1F138DFFB2DA0231C /* DrawingRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93D9794F27BCD968C281D2E /* DrawingRenderer.swift */; };
+		44A24D10B335C04926F42A89 /* FontPreviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21968BC517DC2FBCB736734 /* FontPreviewService.swift */; };
+		496AC4F96582603626023BFA /* StrokeOutlineConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C18F83F451098BA2E07998 /* StrokeOutlineConverter.swift */; };
+		5283997FEE7E0387C2D1E9FF /* FontPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5CF559E8C883982000CDD /* FontPreviewView.swift */; };
+		5352A68FAD0744DBE1957847 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 6036F5EEF6B1784AA1BED601 /* Products.storekit */; };
+		5572871B09C233ECC6247C51 /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DFFB6D3FEADEF16350C3C3 /* AppNotifications.swift */; };
+		616D1197E99750DCA47C433E /* FontExportWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A6C5FE591B7B8FB8897ED /* FontExportWorker.swift */; };
+		6469151C8AA9F3C10296F7CA /* OnboardingTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B755D4BE2C2529E62BBAF5E3 /* OnboardingTutorialView.swift */; };
+		6C143DC020528F2A8A9807E2 /* CharacterSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE319DA04283BCE7E6973F /* CharacterSection.swift */; };
+		7D93A2737CC9B0D93BB04E77 /* FontBuildMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EEB2C845E18F4A60CAC4E9 /* FontBuildMetadata.swift */; };
+		816F88FF9C1AB477E9B68653 /* CharacterGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F0228577DCAAE26818818 /* CharacterGridCell.swift */; };
+		83C5A82E3BAFD7DEAD8A6BB4 /* LaunchSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B79FCF6C3BF0456F9271 /* LaunchSplashView.swift */; };
+		9555A392058EB7E90D6E09B2 /* OnboardingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C968CEA87E602052A09744B /* OnboardingStorage.swift */; };
+		9AEB76DC3031552A2DDF09F1 /* AlphabetGuideOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0799520E99AFBDC2C5F30 /* AlphabetGuideOverlay.swift */; };
+		9C6219956831D1A41BB9BE1B /* CharacterCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA0E0571E84EDD0415A1292 /* CharacterCatalog.swift */; };
+		9E45CBC55F0A49E095EEA867 /* CodablePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67A5100FC60EDC9FF0047B2 /* CodablePoint.swift */; };
+		A07685819C7109B170A0ACB0 /* CanonicalCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA933E3E09A1E9C25DF644 /* CanonicalCanvas.swift */; };
+		A10884AE2C16D71BB390332C /* FontExportError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAE14A1025805017956FFBE /* FontExportError.swift */; };
+		A74ED91EDD040B1BAE8DC8AD /* CharacterCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EE029C583B64C7ABC4379 /* CharacterCanvasView.swift */; };
+		AC2343D17D841A1AF0F92D0E /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1C9414492DE71CEBF2030 /* DrawingCanvasView.swift */; };
+		AC9D28B943CFB6732DEEC409 /* SbixFontBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103CFDA289E6D3D10E785DC5 /* SbixFontBuilder.swift */; };
+		ACE18AA8E04CF3950933F3E5 /* FontProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2764174A96F83C6A393CC0 /* FontProject.swift */; };
+		AD629A3B5B03C52F86D0D64A /* KanjiPackStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F406536F77CF7A999A8430 /* KanjiPackStoreView.swift */; };
+		AFA7EC6DE7BB0113F5506918 /* AppBrandTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF5947A3A8FF4F0D19B753 /* AppBrandTitle.swift */; };
+		B1B18E04CB7283B4A60C6D25 /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6158183781C362FB2F6CB99D /* SubscriptionService.swift */; };
+		B2C4F0DBED7ACC840C6B2B71 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0FD92F4BE4977F2D73E0A0 /* ShareSheet.swift */; };
+		BED4CBCFBFE8979AC0F68F51 /* StrokeSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4117CEDC2B9C483E1D4699C4 /* StrokeSerializer.swift */; };
+		C1BF6468BAEE33191468C1D1 /* CharacterSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804ECA21CBEF6C0DA57218B7 /* CharacterSectionHeader.swift */; };
+		C1C9A39314B6A89489EDEB66 /* FontExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759A1B2EEDDFC0F6FD9AFFD4 /* FontExportView.swift */; };
+		CC4C949A7BB70DFA5AA6D3D3 /* FontProjectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE8641E276CEBA451D4EA58 /* FontProjectService.swift */; };
+		CFBE4601888A24FED74CFD74 /* DrawingStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E6CF9B2F629084BA3C1B2E /* DrawingStroke.swift */; };
+		D68CEAA301FFE891EC410C4E /* GlyfEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C8187068F01E0707FEE03 /* GlyfEncoder.swift */; };
+		DCA5C223BFB111368805A160 /* GlyphStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC2DEF2CA0D52899177F9DF /* GlyphStorageService.swift */; };
+		E0169FDC6FD1AC4E2E60175F /* kanji_readings.json in Resources */ = {isa = PBXBuildFile; fileRef = B3C64687678ECAD0543F2241 /* kanji_readings.json */; };
+		E25C4B8244A25D81C6F9A055 /* VectorFontBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F37003ED47AA46FC02C2A6 /* VectorFontBuilder.swift */; };
+		E62EF0195419A130AA45A869 /* TrueTypeFontAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E8E5D939941D624AC625C /* TrueTypeFontAssembler.swift */; };
+		E8E828A4C58A674A182BBE3F /* OpenTypeTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B8DFB02437E1244AECA34 /* OpenTypeTables.swift */; };
+		F238CB134C81F3CB78F78DD1 /* CGPathContourExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21813E84C71C87A2DC1EF2EC /* CGPathContourExtractor.swift */; };
+		F2F0B6DDCB4698539728F4C3 /* GlyphRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C5FA696D49C43168A9C2A /* GlyphRecord.swift */; };
+		F77DE2D80C72EC2CED3B8C84 /* GlyphRasterPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3335E7E469ED1F66813B495 /* GlyphRasterPreviewView.swift */; };
+		F910380D865FC617E914443C /* ProjectPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DAFFADA6EE3F46B69E520 /* ProjectPickerView.swift */; };
+		FC75E7FEC472195D2A8722F3 /* StrokeSmoother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7C10CB6B52B63B2307DBC /* StrokeSmoother.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004E8E5D939941D624AC625C /* TrueTypeFontAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueTypeFontAssembler.swift; sourceTree = "<group>"; };
+		0EA0E0571E84EDD0415A1292 /* CharacterCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCatalog.swift; sourceTree = "<group>"; };
+		103CFDA289E6D3D10E785DC5 /* SbixFontBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SbixFontBuilder.swift; sourceTree = "<group>"; };
+		1ACE319DA04283BCE7E6973F /* CharacterSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSection.swift; sourceTree = "<group>"; };
+		20DFFB6D3FEADEF16350C3C3 /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
+		21000CFED3BE287FDA50FACB /* BinaryWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryWriter.swift; sourceTree = "<group>"; };
+		21813E84C71C87A2DC1EF2EC /* CGPathContourExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPathContourExtractor.swift; sourceTree = "<group>"; };
+		26FCB4FA45D76136B1B8E9F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BAE14A1025805017956FFBE /* FontExportError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExportError.swift; sourceTree = "<group>"; };
+		34B7C10CB6B52B63B2307DBC /* StrokeSmoother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeSmoother.swift; sourceTree = "<group>"; };
+		3AC2DEF2CA0D52899177F9DF /* GlyphStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphStorageService.swift; sourceTree = "<group>"; };
+		3F97F7006EF6C8DBB896104D /* CharacterGuideOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGuideOverlay.swift; sourceTree = "<group>"; };
+		4117CEDC2B9C483E1D4699C4 /* StrokeSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeSerializer.swift; sourceTree = "<group>"; };
+		4C2764174A96F83C6A393CC0 /* FontProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontProject.swift; sourceTree = "<group>"; };
+		4E1E9B5D6CD37B6B5AD60ED0 /* FontExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExportService.swift; sourceTree = "<group>"; };
+		4F0C5FA696D49C43168A9C2A /* GlyphRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphRecord.swift; sourceTree = "<group>"; };
+		568A6C5FE591B7B8FB8897ED /* FontExportWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExportWorker.swift; sourceTree = "<group>"; };
+		56F1EDEFCF4FF1D92907D835 /* CharacterSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSearchView.swift; sourceTree = "<group>"; };
+		585EE029C583B64C7ABC4379 /* CharacterCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCanvasView.swift; sourceTree = "<group>"; };
+		5CAF5947A3A8FF4F0D19B753 /* AppBrandTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBrandTitle.swift; sourceTree = "<group>"; };
+		5E5C8187068F01E0707FEE03 /* GlyfEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyfEncoder.swift; sourceTree = "<group>"; };
+		5FD1C9414492DE71CEBF2030 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		6036F5EEF6B1784AA1BED601 /* Products.storekit */ = {isa = PBXFileReference; path = Products.storekit; sourceTree = "<group>"; };
+		6158183781C362FB2F6CB99D /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
+		6C968CEA87E602052A09744B /* OnboardingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStorage.swift; sourceTree = "<group>"; };
+		6FA5CF559E8C883982000CDD /* FontPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPreviewView.swift; sourceTree = "<group>"; };
+		759A1B2EEDDFC0F6FD9AFFD4 /* FontExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExportView.swift; sourceTree = "<group>"; };
+		7EFA63B75C07474E2D04E046 /* DrawingSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingSettings.swift; sourceTree = "<group>"; };
+		804ECA21CBEF6C0DA57218B7 /* CharacterSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSectionHeader.swift; sourceTree = "<group>"; };
+		879A76CDE00EFC172C7E9D30 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		925DAFFADA6EE3F46B69E520 /* ProjectPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPickerView.swift; sourceTree = "<group>"; };
+		9FB0799520E99AFBDC2C5F30 /* AlphabetGuideOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetGuideOverlay.swift; sourceTree = "<group>"; };
+		A21968BC517DC2FBCB736734 /* FontPreviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPreviewService.swift; sourceTree = "<group>"; };
+		A28520B726C950D8E135D494 /* KanjiPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiPack.swift; sourceTree = "<group>"; };
+		A8F406536F77CF7A999A8430 /* KanjiPackStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiPackStoreView.swift; sourceTree = "<group>"; };
+		B3C64687678ECAD0543F2241 /* kanji_readings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kanji_readings.json; sourceTree = "<group>"; };
+		B6E6CF9B2F629084BA3C1B2E /* DrawingStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingStroke.swift; sourceTree = "<group>"; };
+		B755D4BE2C2529E62BBAF5E3 /* OnboardingTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTutorialView.swift; sourceTree = "<group>"; };
+		BAE8641E276CEBA451D4EA58 /* FontProjectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontProjectService.swift; sourceTree = "<group>"; };
+		BDD95657473C70CA81BB2B34 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		BE8E9400787F7179CD4A65F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1C18F83F451098BA2E07998 /* StrokeOutlineConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeOutlineConverter.swift; sourceTree = "<group>"; };
+		C5F37003ED47AA46FC02C2A6 /* VectorFontBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorFontBuilder.swift; sourceTree = "<group>"; };
+		CDC796E59064EB2DE53359B8 /* FontExportEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExportEngine.swift; sourceTree = "<group>"; };
+		D284B79FCF6C3BF0456F9271 /* LaunchSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSplashView.swift; sourceTree = "<group>"; };
+		D34B99F0B83C2FF89712B962 /* FontMaker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FontMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7EEB2C845E18F4A60CAC4E9 /* FontBuildMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBuildMetadata.swift; sourceTree = "<group>"; };
+		D82B354B47DDBBFCBE647D0E /* CharacterSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSearchService.swift; sourceTree = "<group>"; };
+		D93D9794F27BCD968C281D2E /* DrawingRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingRenderer.swift; sourceTree = "<group>"; };
+		DE3F0228577DCAAE26818818 /* CharacterGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGridCell.swift; sourceTree = "<group>"; };
+		E36BA91DAB097FD55731441D /* FontMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMakerApp.swift; sourceTree = "<group>"; };
+		E67A5100FC60EDC9FF0047B2 /* CodablePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodablePoint.swift; sourceTree = "<group>"; };
+		EE7B8DFB02437E1244AECA34 /* OpenTypeTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTypeTables.swift; sourceTree = "<group>"; };
+		F3335E7E469ED1F66813B495 /* GlyphRasterPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphRasterPreviewView.swift; sourceTree = "<group>"; };
+		F6E1F44D210D291CA1C61EEC /* kanji_packs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kanji_packs.json; sourceTree = "<group>"; };
+		FBEA933E3E09A1E9C25DF644 /* CanonicalCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonicalCanvas.swift; sourceTree = "<group>"; };
+		FF0FD92F4BE4977F2D73E0A0 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1AFA37B6A6B3D9A6D4981CCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6E1F44D210D291CA1C61EEC /* kanji_packs.json */,
+				B3C64687678ECAD0543F2241 /* kanji_readings.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A2450D4D28DE052FE288A79 /* HandWriteFont */ = {
+			isa = PBXGroup;
+			children = (
+				6A09B6BF50472A826211ACCE /* Models */,
+				1AFA37B6A6B3D9A6D4981CCB /* Resources */,
+				D99B659E0DF65AE1D197E6FC /* Services */,
+				FB21E4DFB2561179A17B3953 /* Theme */,
+				7C396D12DCD6ACCCCBE83553 /* Utilities */,
+				E8B6C75D5DC47B2E5558B8E8 /* Views */,
+				BE8E9400787F7179CD4A65F0 /* Assets.xcassets */,
+				26FCB4FA45D76136B1B8E9F9 /* ContentView.swift */,
+				E36BA91DAB097FD55731441D /* FontMakerApp.swift */,
+				6036F5EEF6B1784AA1BED601 /* Products.storekit */,
+			);
+			path = HandWriteFont;
+			sourceTree = "<group>";
+		};
+		5D8CB6902164A63ADC207DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D34B99F0B83C2FF89712B962 /* FontMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A09B6BF50472A826211ACCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0EA0E0571E84EDD0415A1292 /* CharacterCatalog.swift */,
+				1ACE319DA04283BCE7E6973F /* CharacterSection.swift */,
+				E67A5100FC60EDC9FF0047B2 /* CodablePoint.swift */,
+				B6E6CF9B2F629084BA3C1B2E /* DrawingStroke.swift */,
+				D7EEB2C845E18F4A60CAC4E9 /* FontBuildMetadata.swift */,
+				CDC796E59064EB2DE53359B8 /* FontExportEngine.swift */,
+				2BAE14A1025805017956FFBE /* FontExportError.swift */,
+				4C2764174A96F83C6A393CC0 /* FontProject.swift */,
+				4F0C5FA696D49C43168A9C2A /* GlyphRecord.swift */,
+				A28520B726C950D8E135D494 /* KanjiPack.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AA27772CB1E8AC5DCBB36A9 = {
+			isa = PBXGroup;
+			children = (
+				3A2450D4D28DE052FE288A79 /* HandWriteFont */,
+				5D8CB6902164A63ADC207DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C396D12DCD6ACCCCBE83553 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				20DFFB6D3FEADEF16350C3C3 /* AppNotifications.swift */,
+				21000CFED3BE287FDA50FACB /* BinaryWriter.swift */,
+				FBEA933E3E09A1E9C25DF644 /* CanonicalCanvas.swift */,
+				21813E84C71C87A2DC1EF2EC /* CGPathContourExtractor.swift */,
+				D93D9794F27BCD968C281D2E /* DrawingRenderer.swift */,
+				5E5C8187068F01E0707FEE03 /* GlyfEncoder.swift */,
+				EE7B8DFB02437E1244AECA34 /* OpenTypeTables.swift */,
+				103CFDA289E6D3D10E785DC5 /* SbixFontBuilder.swift */,
+				C1C18F83F451098BA2E07998 /* StrokeOutlineConverter.swift */,
+				4117CEDC2B9C483E1D4699C4 /* StrokeSerializer.swift */,
+				34B7C10CB6B52B63B2307DBC /* StrokeSmoother.swift */,
+				004E8E5D939941D624AC625C /* TrueTypeFontAssembler.swift */,
+				C5F37003ED47AA46FC02C2A6 /* VectorFontBuilder.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D99B659E0DF65AE1D197E6FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D82B354B47DDBBFCBE647D0E /* CharacterSearchService.swift */,
+				7EFA63B75C07474E2D04E046 /* DrawingSettings.swift */,
+				4E1E9B5D6CD37B6B5AD60ED0 /* FontExportService.swift */,
+				568A6C5FE591B7B8FB8897ED /* FontExportWorker.swift */,
+				A21968BC517DC2FBCB736734 /* FontPreviewService.swift */,
+				BAE8641E276CEBA451D4EA58 /* FontProjectService.swift */,
+				3AC2DEF2CA0D52899177F9DF /* GlyphStorageService.swift */,
+				6C968CEA87E602052A09744B /* OnboardingStorage.swift */,
+				6158183781C362FB2F6CB99D /* SubscriptionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E8B6C75D5DC47B2E5558B8E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FB0799520E99AFBDC2C5F30 /* AlphabetGuideOverlay.swift */,
+				585EE029C583B64C7ABC4379 /* CharacterCanvasView.swift */,
+				DE3F0228577DCAAE26818818 /* CharacterGridCell.swift */,
+				3F97F7006EF6C8DBB896104D /* CharacterGuideOverlay.swift */,
+				879A76CDE00EFC172C7E9D30 /* CharacterListView.swift */,
+				56F1EDEFCF4FF1D92907D835 /* CharacterSearchView.swift */,
+				804ECA21CBEF6C0DA57218B7 /* CharacterSectionHeader.swift */,
+				5FD1C9414492DE71CEBF2030 /* DrawingCanvasView.swift */,
+				759A1B2EEDDFC0F6FD9AFFD4 /* FontExportView.swift */,
+				6FA5CF559E8C883982000CDD /* FontPreviewView.swift */,
+				F3335E7E469ED1F66813B495 /* GlyphRasterPreviewView.swift */,
+				A8F406536F77CF7A999A8430 /* KanjiPackStoreView.swift */,
+				D284B79FCF6C3BF0456F9271 /* LaunchSplashView.swift */,
+				B755D4BE2C2529E62BBAF5E3 /* OnboardingTutorialView.swift */,
+				925DAFFADA6EE3F46B69E520 /* ProjectPickerView.swift */,
+				FF0FD92F4BE4977F2D73E0A0 /* ShareSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB21E4DFB2561179A17B3953 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				5CAF5947A3A8FF4F0D19B753 /* AppBrandTitle.swift */,
+				BDD95657473C70CA81BB2B34 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AF9D0B55E5431E937F07D1 /* FontMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009B1BCAC1261E5B9712E49D /* Build configuration list for PBXNativeTarget "FontMaker" */;
+			buildPhases = (
+				FCB8D36C1693F5EE5A11516A /* Sources */,
+				17FCAFFBC0D693F7C84A7A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontMaker;
+			packageProductDependencies = (
+			);
+			productName = FontMaker;
+			productReference = D34B99F0B83C2FF89712B962 /* FontMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		376CB10ACDE6EEC0833FD68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04AF9D0B55E5431E937F07D1 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 627F71154852BFC14BAEDF15 /* Build configuration list for PBXProject "FontMaker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7AA27772CB1E8AC5DCBB36A9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5D8CB6902164A63ADC207DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AF9D0B55E5431E937F07D1 /* FontMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17FCAFFBC0D693F7C84A7A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF9646A97E1116BC0514927 /* Assets.xcassets in Resources */,
+				5352A68FAD0744DBE1957847 /* Products.storekit in Resources */,
+				3CD139C7A2FB6EA7F61439B4 /* kanji_packs.json in Resources */,
+				E0169FDC6FD1AC4E2E60175F /* kanji_readings.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB8D36C1693F5EE5A11516A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEB76DC3031552A2DDF09F1 /* AlphabetGuideOverlay.swift in Sources */,
+				AFA7EC6DE7BB0113F5506918 /* AppBrandTitle.swift in Sources */,
+				5572871B09C233ECC6247C51 /* AppNotifications.swift in Sources */,
+				2678FAA3CE6C17B2A3AC4BB0 /* AppTheme.swift in Sources */,
+				3DA6FEC3E0276761017706BA /* BinaryWriter.swift in Sources */,
+				F238CB134C81F3CB78F78DD1 /* CGPathContourExtractor.swift in Sources */,
+				A07685819C7109B170A0ACB0 /* CanonicalCanvas.swift in Sources */,
+				A74ED91EDD040B1BAE8DC8AD /* CharacterCanvasView.swift in Sources */,
+				9C6219956831D1A41BB9BE1B /* CharacterCatalog.swift in Sources */,
+				816F88FF9C1AB477E9B68653 /* CharacterGridCell.swift in Sources */,
+				1603B36BEFFB13767F10854C /* CharacterGuideOverlay.swift in Sources */,
+				293C6709F904D73ECDDFBA60 /* CharacterListView.swift in Sources */,
+				3826333A2A314090516882AD /* CharacterSearchService.swift in Sources */,
+				1CF89C4D2AE37D9ECAF4DC0C /* CharacterSearchView.swift in Sources */,
+				6C143DC020528F2A8A9807E2 /* CharacterSection.swift in Sources */,
+				C1BF6468BAEE33191468C1D1 /* CharacterSectionHeader.swift in Sources */,
+				9E45CBC55F0A49E095EEA867 /* CodablePoint.swift in Sources */,
+				06887FE51BEB2FC7C1DD7321 /* ContentView.swift in Sources */,
+				AC2343D17D841A1AF0F92D0E /* DrawingCanvasView.swift in Sources */,
+				403A1AD1F138DFFB2DA0231C /* DrawingRenderer.swift in Sources */,
+				2D7CB3EAA1D56484DABE327D /* DrawingSettings.swift in Sources */,
+				CFBE4601888A24FED74CFD74 /* DrawingStroke.swift in Sources */,
+				7D93A2737CC9B0D93BB04E77 /* FontBuildMetadata.swift in Sources */,
+				393D90F1A1D8500E85FAC2F2 /* FontExportEngine.swift in Sources */,
+				A10884AE2C16D71BB390332C /* FontExportError.swift in Sources */,
+				16C7C194C84E76FFF6A368A3 /* FontExportService.swift in Sources */,
+				C1C9A39314B6A89489EDEB66 /* FontExportView.swift in Sources */,
+				616D1197E99750DCA47C433E /* FontExportWorker.swift in Sources */,
+				33F3872DD5AD60B0B821B844 /* FontMakerApp.swift in Sources */,
+				44A24D10B335C04926F42A89 /* FontPreviewService.swift in Sources */,
+				5283997FEE7E0387C2D1E9FF /* FontPreviewView.swift in Sources */,
+				ACE18AA8E04CF3950933F3E5 /* FontProject.swift in Sources */,
+				CC4C949A7BB70DFA5AA6D3D3 /* FontProjectService.swift in Sources */,
+				D68CEAA301FFE891EC410C4E /* GlyfEncoder.swift in Sources */,
+				F77DE2D80C72EC2CED3B8C84 /* GlyphRasterPreviewView.swift in Sources */,
+				F2F0B6DDCB4698539728F4C3 /* GlyphRecord.swift in Sources */,
+				DCA5C223BFB111368805A160 /* GlyphStorageService.swift in Sources */,
+				3B023458E38823C08D4C3910 /* KanjiPack.swift in Sources */,
+				AD629A3B5B03C52F86D0D64A /* KanjiPackStoreView.swift in Sources */,
+				83C5A82E3BAFD7DEAD8A6BB4 /* LaunchSplashView.swift in Sources */,
+				9555A392058EB7E90D6E09B2 /* OnboardingStorage.swift in Sources */,
+				6469151C8AA9F3C10296F7CA /* OnboardingTutorialView.swift in Sources */,
+				E8E828A4C58A674A182BBE3F /* OpenTypeTables.swift in Sources */,
+				F910380D865FC617E914443C /* ProjectPickerView.swift in Sources */,
+				AC9D28B943CFB6732DEEC409 /* SbixFontBuilder.swift in Sources */,
+				B2C4F0DBED7ACC840C6B2B71 /* ShareSheet.swift in Sources */,
+				496AC4F96582603626023BFA /* StrokeOutlineConverter.swift in Sources */,
+				BED4CBCFBFE8979AC0F68F51 /* StrokeSerializer.swift in Sources */,
+				FC75E7FEC472195D2A8722F3 /* StrokeSmoother.swift in Sources */,
+				B1B18E04CB7283B4A60C6D25 /* SubscriptionService.swift in Sources */,
+				E62EF0195419A130AA45A869 /* TrueTypeFontAssembler.swift in Sources */,
+				E25C4B8244A25D81C6F9A055 /* VectorFontBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3AC8FFD572EC99B323C65A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FontMaker;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_ImageName = Logo;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = LaunchBackground;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontmaker.app;
+				PRODUCT_NAME = FontMaker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8093C49159083237B9D86B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D1615197F342B8865133017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5EF22FE5EA5AC68A0AC18FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FontMaker;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_ImageName = Logo;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = LaunchBackground;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontmaker.app;
+				PRODUCT_NAME = FontMaker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009B1BCAC1261E5B9712E49D /* Build configuration list for PBXNativeTarget "FontMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC8FFD572EC99B323C65A5E /* Debug */,
+				D5EF22FE5EA5AC68A0AC18FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		627F71154852BFC14BAEDF15 /* Build configuration list for PBXProject "FontMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8093C49159083237B9D86B76 /* Debug */,
+				8D1615197F342B8865133017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 376CB10ACDE6EEC0833FD68C /* Project object */;
+}

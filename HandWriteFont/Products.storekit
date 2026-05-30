@@ -1,0 +1,132 @@
+{
+  "identifier" : "FontMaker",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storefront" : "JPN",
+    "_locale" : "ja_JP",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "fontmaker_kanji",
+      "localizations" : [
+
+      ],
+      "name" : "Kanji Pack",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "550",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "kanji_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "常用漢字2136字すべてを手書き登録",
+              "displayName" : "漢字パック（月額）",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "com.fontmaker.kanji.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Kanji Monthly",
+          "subscriptionGroupID" : "fontmaker_kanji",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "5000",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "kanji_yearly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "常用漢字2136字すべてを手書き登録",
+              "displayName" : "漢字パック（年額）",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "com.fontmaker.kanji.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Kanji Yearly",
+          "subscriptionGroupID" : "fontmaker_kanji",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
