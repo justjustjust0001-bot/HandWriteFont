@@ -43,7 +43,33 @@ python3 -m http.server 8080
 
 ブラウザで http://localhost:8080 を開いてください。
 
+## 正しい URL（重要）
+
+公式サイトは **次の URL だけ** です（末尾の `/HandWriteFont/` を忘れないでください）:
+
+**https://justjustjust0001-bot.github.io/HandWriteFont/**
+
+次の URL は **404（Page not found）** になります:
+
+| 間違った URL | 理由 |
+|---|---|
+| `https://tokudomekaita.github.io/HandWriteFont/` | 別アカウント名（未公開） |
+| `https://justjustjust0001-bot.github.io/` | リポジトリ名 `/HandWriteFont/` がない |
+
+## GitHub Pages の設定
+
+**Settings → Pages** で次を確認してください:
+
+| 項目 | 値 |
+|---|---|
+| Source | Deploy from a branch |
+| Branch | `main` |
+| Folder | **`/docs`**（`/website` ではない） |
+
+`/website` は古いフォルダ名です。いまは `docs/` にあります。
+
 ## 注意
 
 - GitHub ユーザー名やリポジトリ名を変えた場合は、`LegalDocuments.swift` の `websiteBaseURL` も更新してください。
+- App Store Connect のサポート URL も、上記の正しい URL になっているか確認してください。
 - 特商法表記の「所在地」「電話番号」は現在「請求により開示」形式です。必要に応じて `legal/tokushoho.html` を編集してください。
