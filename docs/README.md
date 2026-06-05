@@ -22,6 +22,10 @@
 | プライバシーポリシー | `/legal/privacy.html` |
 | サブスクリプションについて | `/legal/subscription.html` |
 
+## App Store
+
+**https://apps.apple.com/jp/app/fontmaker/id6775777187**
+
 ## App Store Connect での設定例
 
 | 項目 | URL |
