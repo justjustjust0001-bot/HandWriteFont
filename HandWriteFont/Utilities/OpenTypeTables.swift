@@ -102,7 +102,7 @@ enum OpenTypeTables {
 
         for metric in metrics {
             let leftSideBearing = metric.minX
-            let rightSideBearing = Int16(advanceWidth) - metric.maxX
+            let rightSideBearing = clampInt16(Int(advanceWidth) - Int(metric.maxX))
             minLeft = min(minLeft, leftSideBearing)
             minRight = min(minRight, rightSideBearing)
             let extent = Int(leftSideBearing) + Int(advanceWidth)
@@ -221,7 +221,10 @@ enum OpenTypeTables {
         for (codepoint, glyphID) in mapping {
             endCount.append(UInt16(codepoint))
             startCount.append(UInt16(codepoint))
-            idDelta.append(Int16(glyphID - codepoint))
+            // OpenType cmap format 4: glyphIndex = (idDelta + codepoint) mod 65536.
+            // Fullwidth symbols (U+FFxx) make glyphID - codepoint overflow Int16 if
+            // constructed with a trapping conversion — use wraparound arithmetic.
+            idDelta.append(Int16(truncatingIfNeeded: glyphID &- codepoint))
             rangeOffset.append(0)
         }
 

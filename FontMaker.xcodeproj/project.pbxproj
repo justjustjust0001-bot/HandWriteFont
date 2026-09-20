@@ -94,7 +94,7 @@
 		5CAF5947A3A8FF4F0D19B753 /* AppBrandTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBrandTitle.swift; sourceTree = "<group>"; };
 		5E5C8187068F01E0707FEE03 /* GlyfEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyfEncoder.swift; sourceTree = "<group>"; };
 		5FD1C9414492DE71CEBF2030 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
-		6036F5EEF6B1784AA1BED601 /* Products.storekit */ = {isa = PBXFileReference; path = Products.storekit; sourceTree = "<group>"; };
+		6036F5EEF6B1784AA1BED601 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
 		6158183781C362FB2F6CB99D /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
 		6C968CEA87E602052A09744B /* OnboardingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStorage.swift; sourceTree = "<group>"; };
 		6FA5CF559E8C883982000CDD /* FontPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPreviewView.swift; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		C5F37003ED47AA46FC02C2A6 /* VectorFontBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorFontBuilder.swift; sourceTree = "<group>"; };
 		CDC796E59064EB2DE53359B8 /* FontExportEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExportEngine.swift; sourceTree = "<group>"; };
 		D284B79FCF6C3BF0456F9271 /* LaunchSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSplashView.swift; sourceTree = "<group>"; };
-		D34B99F0B83C2FF89712B962 /* FontMaker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FontMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34B99F0B83C2FF89712B962 /* FontMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EEB2C845E18F4A60CAC4E9 /* FontBuildMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBuildMetadata.swift; sourceTree = "<group>"; };
 		D82B354B47DDBBFCBE647D0E /* CharacterSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSearchService.swift; sourceTree = "<group>"; };
 		D93D9794F27BCD968C281D2E /* DrawingRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingRenderer.swift; sourceTree = "<group>"; };
@@ -293,7 +293,6 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					04AF9D0B55E5431E937F07D1 = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -403,8 +402,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = W4GN2765R4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = FontMaker;
@@ -418,7 +417,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fontmaker.app;
 				PRODUCT_NAME = FontMaker;
 				SDKROOT = iphoneos;
@@ -551,8 +550,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = W4GN2765R4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = FontMaker;
@@ -566,7 +565,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fontmaker.app;
 				PRODUCT_NAME = FontMaker;
 				SDKROOT = iphoneos;
